@@ -2,17 +2,23 @@
   "name": "aula-04-listas",
   "version": "1.0.0",
   "main": "index.js",
-"scripts": {
+  "scripts": {
     "dev": "nodemon ./src/index.ts",
-    "start": "npx tsc && node ./dist/index.js"},
+    "start": "npx tsc && node ./dist/index.js"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "devDependencies": {
     "@types/node": "^22.9.0",
+    "@types/readline-sync": "^1.4.8",
     "nodemon": "^3.1.7",
     "ts-node": "^10.9.2",
     "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "react-router-dom": "^6.28.0",
+    "readline-sync": "^1.4.10"
   }
 }
